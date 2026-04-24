@@ -1,11 +1,21 @@
-AI-Powered CRM BackendA blazing-fast, intelligent CRM backend built with FastAPI, PostgreSQL (Neon), and the Google Gemini API.This isn't just a database; it's an active sales engine. It features real-time sentiment analysis, a context-aware AI Sales Copilot, and semantic lead scoring using vector embeddings.Key AI FeaturesLive Sentiment Analysis: Automatically analyzes incoming emails and call notes to tag client sentiment (Positive, Neutral, Frustrated, Urgent) using gemini-flash-latest.Sales Copilot: Evaluates entire deal histories to provide actionable "Next Best Action" advice for sales reps.Semantic Lead Scoring: Uses gemini-embedding-2 and PostgreSQL pgvector to create 3072-dimensional mathematical fingerprints of companies, matching new leads to your ideal customer profiles via Cosine Similarity.Tech StackFramework: FastAPI (Python)Database: PostgreSQL (Hosted via Neon serverless)Vector Engine: pgvector extensionAI SDK: google-genaiValidation: PydanticSetup & Installation1. Clone and enter the directorycd crm-backend
+AI-Powered CRM BackendA blazing-fast, intelligent CRM backend built with FastAPI, PostgreSQL (Neon), and the Google Gemini API.This isn't just a database; it's an active sales engine. It features real-time sentiment analysis, a context-aware AI Sales Copilot, and semantic lead scoring using vector embeddings.
+Key AI Features:
+-Live Sentiment Analysis: Automatically analyzes incoming emails and call notes to tag client sentiment (Positive, Neutral, Frustrated, Urgent) using gemini-flash-latest.Sales Copilot: Evaluates entire deal histories to provide actionable "Next Best Action" advice for sales reps.
+-Semantic Lead Scoring: Uses gemini-embedding-2 and PostgreSQL pgvector to create 3072-dimensional mathematical fingerprints of companies, matching new leads to your ideal customer profiles via Cosine Similarity.
 
-2. Create and activate a virtual environmentpython -m venv venv
-# On Windows:
+Tech StackFramework: FastAPI (Python)Database: PostgreSQL (Hosted via Neon serverless)Vector Engine: pgvector extensionAI SDK: google-genaiValidation: Pydantic
+Setup & Installation:
+
+1. Clone and enter the directory
+```
+   cd crm-backend
+```
+3. Create and activate a virtual environmentpython -m venv venv
+On Windows:
 ```
 venv\Scripts\activate
 ```
-# On Mac/Linux:
+On Mac/Linux:
 ```
 source venv/bin/activate
 ```
