@@ -1,0 +1,81 @@
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# =========================
+# Operating System
+# =========================
+.DS_Store
+Thumbs.db
+*~
+
+# =========================
+# Next.js / Node.js (Frontend)
+# =========================
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js specific
+.next/
+out/
+build/
+.swc/
+
+# Vercel
+.vercel
+
+# =========================
+# Python (Backend)
+# =========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# =========================
+# Databases
+# =========================
+# Ignore local database files and journals
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Ignore database dumps/backups
+*.dump
+*.sql
+
+# =========================
+# Environment Variables
+# =========================
+# Never commit your environment variables to version control
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
