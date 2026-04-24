@@ -1,0 +1,13 @@
+# Web Framework & Server
+fastapi
+uvicorn
+
+# Data Validation
+pydantic
+
+# Database & Environment
+psycopg2-binary
+python-dotenv
+
+# Google Gemini AI SDK
+google-genai
